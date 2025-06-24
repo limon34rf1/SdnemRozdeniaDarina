@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сайт для Дарины</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at center, #222 0%, #000 100%);
+      color: #fff;
+    }
+    section {
+      min-height: 100vh;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #444;
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 128, 0.4);
+    }
+    h1 {
+      font-size: 2em;
+      color: #0f0;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+    }
+    .taksa {
+      width: 120px;
+      animation: taksaRun 8s linear infinite;
+    }
+    @keyframes taksaRun {
+      0% { transform: translateX(-150%); }
+      100% { transform: translateX(150%); }
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+
+  <section data-aos="fade-up">
+    <h1>Дарина, сегодня твой день!</h1>
+    <p>Готова вспомнить моменты за последние 2 месяца?) Просто листай!</p>
+    <img src="taksa.png" class="taksa" alt="Такса">
+  </section>
+
+  <section data-aos="fade-right">
+    <h1>Пускай от неё все отвернутся</h1>
+    <p>Потому что ты круче Влада.</p>
+    <img src="3c02a1b2-d350-4c54-849b-3d997c810d4c.png" alt="Та самая">
+  </section>
+
+  <section data-aos="fade-left">
+    <h1>А ты случайно не третий вайпер?</h1>
+    <p>Мне очень жаль, и на восток ХНЫКИН улетит Москва - Владивосток. <em>9mice</em></p>
+    <img src="withViper.png" alt="Дарина с вайперами">
+  </section>
+
+  <section data-aos="fade-up">
+    <h1>Крышка унитаза...</h1>
+    <p>Пала в бою с абсентом.<br>Но твои праздники пусть будут такими же мощными как полтола литла абсента.</p>
+    <img src="103364.jpg" alt="Абсент">
+  </section>
+
+  <section data-aos="zoom-in">
+    <h1>Этот мир ещё не готов к такому комбо!</h1>
+    <p>У нас слишком много столбов в стране...</p>
+    <img src="AudiRs7.png" alt="Дарина с Audi RS7">
+    <img src="taksa2-Photoroom.png" class="taksa" alt="Такса 2">
+  </section>
+
+  <section data-aos="fade-down">
+    <h1>Пусть <span class="strike">Твой</span> мамин любимый Хныкин больше никогда тебя не выбесит!</h1>
+    <img src="Chnikin.png" alt="Никита Хныкин">
+  </section>
+
+  <section data-aos="fade-up">
+    <h1>Такса лайкает этот сайт</h1>
+    <p>Пусть она всегда приносит радость, как сегодня этот сайт тебе!</p>
+    <img src="taksa.png" alt="Такса 1">
+    <img src="taksa2-Photoroom.png" alt="Такса 2">
+    <h2>Дарина, с 15-летием!</h2>
+    <p>Ты — огонь, мем года и вайб всей планеты.<br>Листай в свой новый год с таким же настроением!</p>
+    <img src="photo_5393453792848115858_y.jpg" alt="QR Telegram" style="width: 150px; margin-top: 15px;">
+    <p>Остались слова? Напиши мне.</p>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
